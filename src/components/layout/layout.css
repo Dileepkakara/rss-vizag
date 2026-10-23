@@ -6,15 +6,15 @@
 
 .brand strong, .brand small { display: block; letter-spacing: .075em; }
 
-.brand strong { font: 800 calc(var(--font-scale) * 13px) Manrope, sans-serif; color: #fff; }
+.brand strong { font-size: .9rem; font-weight: 800; line-height: 1.25; color: #fff; }
 
-.brand small { margin-top: 3px; color: #9db0c9; font-size: calc(var(--font-scale) * 8px); letter-spacing: .15em; }
+.brand small { margin-top: 3px; color: #b2c2d5; font-size: .6875rem; letter-spacing: .12em; line-height: 1.35; }
 
 .workspace-label { color: #8197b1; font-size: calc(var(--font-scale) * 9px); font-weight: 700; letter-spacing: .14em; padding: 2px 12px 12px; }
 
 .sidebar nav { display: grid; gap: 3px; }
 
-.nav-link { height: 42px; background: transparent; border: 0; border-radius: 7px; color: #c4d2e3; display: flex; align-items: center; text-align: left; gap: 12px; padding: 0 12px; font-size: calc(var(--font-scale) * 12px); position: relative; transition: background .15s, color .15s; }
+.nav-link { min-height: 42px; height: auto; overflow: hidden; background: transparent; border: 0; border-radius: 7px; color: #d1dceb; display: flex; align-items: center; text-align: left; gap: 10px; padding: 9px 10px; font-size: .875rem; line-height: 1.35; white-space: nowrap; position: relative; transition: background .15s, color .15s; }
 
 .nav-link:hover { background: #193b63; color: white; }
 
@@ -38,7 +38,7 @@
 
 .topbar { height: 66px; background: white; border-bottom: 1px solid #edf0f4; display: flex; align-items: center; justify-content: space-between; padding: 0 34px; position: sticky; top: 0; z-index: 15; }
 
-.crumb { color: #263b53; font-size: calc(var(--font-scale) * 12px); font-weight: 600; }
+.crumb { color: #263b53; font-size: .875rem; font-weight: 600; }
 
 .crumb span { color: #98a4b4; font-weight: 400; }
 

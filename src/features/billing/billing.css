@@ -4,17 +4,17 @@
 
 .billing-summary-card span, .billing-summary-card small { display: block; color: #78869a; font-size: calc(var(--font-scale) * 10px); }
 
-.billing-summary-card strong { display: block; color: #1b3451; font: 700 calc(var(--font-scale) * 19px) Manrope, sans-serif; margin: 5px 0 2px; }
+.billing-summary-card strong { display: block; color: #1b3451; font-size: 1.35rem; font-weight: 700; margin: 5px 0 2px; }
 
 .billing-summary-card small { color: #97a1af; }
 
 .billing-tabs { display: flex; align-items: center; gap: 5px; border-bottom: 1px solid #e6ebf1; margin-bottom: 12px; }
 
-.billing-tabs button { border: 0; border-bottom: 2px solid transparent; background: transparent; color: #718096; padding: 11px 14px; font: 600 calc(var(--font-scale) * 12px) Manrope, sans-serif; }
+.billing-tabs button { border: 0; border-bottom: 2px solid transparent; background: transparent; color: #718096; padding: 11px 14px; font-size: .9375rem; font-weight: 600; }
 
 .billing-tabs button.active { border-bottom-color: #2563eb; color: #1b4f9c; }
 
-.billing-tabs button span { display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 5px; padding: 0 5px; border-radius: 10px; background: #f0f4f9; color: #708098; font: 600 calc(var(--font-scale) * 9px) 'DM Sans', sans-serif; }
+.billing-tabs button span { display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 5px; padding: 0 5px; border-radius: 10px; background: #f0f4f9; color: #708098; font-size: .75rem; font-weight: 600; }
 
 .billing-tabs button.active span { background: #eaf1fd; color: #2563eb; }
 
@@ -48,7 +48,7 @@
 
 .billing-form-section { padding: 0 0 15px; margin: 0 0 15px; border-bottom: 1px solid #edf0f4; }
 
-.billing-form-section h3 { margin: 0 0 11px; color: #263d58; font: 700 calc(var(--font-scale) * 13px) Manrope, sans-serif; }
+.billing-form-section h3 { margin: 0 0 11px; color: #263d58; font-size: 1.125rem; font-weight: 700; }
 
 .billing-customer-grid { gap: 10px; }
 
@@ -84,7 +84,7 @@
 
 .billing-total-box .billing-grand-total { border-top: 1px solid #dfe6ee; margin-top: 5px; padding-top: 10px; color: #1c3451; font-weight: 700; }
 
-.billing-total-box .billing-grand-total strong { color: #1c3451; font: 700 calc(var(--font-scale) * 17px) Manrope, sans-serif; }
+.billing-total-box .billing-grand-total strong { color: #1c3451; font-size: 1.125rem; font-weight: 700; }
 
 .billing-notes-grid { margin-bottom: 12px; }
 
@@ -96,13 +96,13 @@
 
 .billing-view-actions > div { display: flex; align-items: center; gap: 9px; }
 
-.billing-view-actions h2 { margin: 0; color: #20354f; font: 700 calc(var(--font-scale) * 16px) Manrope, sans-serif; }
+.billing-view-actions h2 { margin: 0; color: #20354f; font-size: 1.25rem; font-weight: 700; }
 
 .billing-print-document { background: #fff; color: #25374c; padding: 24px; }
 
 .billing-document-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 18px; border-bottom: 2px solid #17395e; }
 
-.billing-document-header > div:first-child > strong { color: #17395e; font: 800 24px Manrope, sans-serif; letter-spacing: .04em; }
+.billing-document-header > div:first-child > strong { color: #17395e; font-size: 1.5rem; font-weight: 800; letter-spacing: .04em; }
 
 .billing-document-header p { margin: 5px 0 0; color: #8591a0; font-size: calc(var(--font-scale) * 10px); }
 
@@ -112,7 +112,7 @@
 
 .billing-document-type span { color: #69809b; font-size: calc(var(--font-scale) * 10px); font-weight: 700; letter-spacing: .13em; }
 
-.billing-document-type strong { margin-top: 5px; color: #17395e; font: 700 calc(var(--font-scale) * 16px) Manrope, sans-serif; }
+.billing-document-type strong { margin-top: 5px; color: #17395e; font-size: 1rem; font-weight: 700; }
 
 .billing-document-meta { display: flex; gap: 28px; margin: 18px 0; }
 
@@ -146,7 +146,7 @@
 
 .billing-print-totals .billing-print-grand { margin-top: 5px; padding-top: 9px; border-top: 1px solid #dce4ed; color: #17395e; font-weight: 700; }
 
-.billing-print-totals .billing-print-grand strong { color: #17395e; font: 700 calc(var(--font-scale) * 15px) Manrope, sans-serif; }
+.billing-print-totals .billing-print-grand strong { color: #17395e; font-size: 1rem; font-weight: 700; }
 
 .billing-print-notes { margin-top: 20px; color: #5c7088; font-size: calc(var(--font-scale) * 10px); line-height: 1.55; }
 

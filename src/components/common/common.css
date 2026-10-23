@@ -1,4 +1,4 @@
-.status { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; border-radius: 10px; padding: 4px 7px; font-size: calc(var(--font-scale) * 10px); line-height: 1.2; }
+.status { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; border-radius: 10px; padding: 4px 8px; font-size: var(--font-sm); line-height: 1.35; }
 
 .status i { width: 5px; height: 5px; background: currentColor; border-radius: 50%; }
 
@@ -14,9 +14,9 @@
 
 .module-stats > div { flex: 1; display: flex; align-items: center; justify-content: space-between; background: #fff; border: 1px solid #e9edf2; border-radius: 7px; padding: 11px 14px; }
 
-.module-stats small { color: #78869a; font-size: calc(var(--font-scale) * 10px); }
+.module-stats small { color: #68788d; font-size: var(--font-sm); }
 
-.module-stats strong { font: 700 calc(var(--font-scale) * 17px) Manrope; color: #203853; }
+.module-stats strong { font-size: 1.125rem; font-weight: var(--weight-bold); color: #203853; }
 
 .table-panel { overflow: visible; }
 
@@ -26,7 +26,7 @@
 
 .search-box span { font-size: calc(var(--font-scale) * 18px); line-height: 1; }
 
-.search-box input { min-width: 0; border: 0; outline: none; background: transparent; color: #30445d; font-size: calc(var(--font-scale) * 12px); flex: 1; }
+.search-box input { min-width: 0; border: 0; outline: none; background: transparent; color: #30445d; font-size: var(--font-body); flex: 1; }
 
 .search-box input::placeholder { color: #a0abb9; }
 
@@ -42,9 +42,9 @@ table { width: 100%; border-collapse: collapse; text-align: left; }
 
 thead { background: #f8fafc; }
 
-th { height: 34px; color: #8794a4; font-size: calc(var(--font-scale) * 10px); font-weight: 700; letter-spacing: .07em; white-space: nowrap; padding: 0 13px; }
+th { height: 38px; color: #68788d; font-size: var(--font-table-header); font-weight: var(--weight-semibold); letter-spacing: .055em; white-space: nowrap; padding: 0 13px; }
 
-td { min-height: 55px; padding: 9px 13px; border-top: 1px solid #eff2f5; color: #68778a; font-size: calc(var(--font-scale) * 12px); white-space: nowrap; }
+td { min-height: 55px; padding: 11px 13px; border-top: 1px solid #eff2f5; color: #53657a; font-size: var(--font-table-cell); line-height: 1.45; white-space: nowrap; }
 
 tr:hover td { background: #fbfcfe; }
 
@@ -54,9 +54,9 @@ tr:hover td { background: #fbfcfe; }
 
 .table-person strong, .table-person small, .record-title strong, .record-title small { display: block; }
 
-.table-person strong, .record-title strong { color: #34475f; font-size: calc(var(--font-scale) * 11px); font-weight: 600; }
+.table-person strong, .record-title strong { color: #34475f; font-size: var(--font-label); font-weight: var(--weight-semibold); }
 
-.table-person small, .record-title small { color: #95a0ad; font-size: calc(var(--font-scale) * 10px); margin-top: 4px; }
+.table-person small, .record-title small { color: #68788d; font-size: var(--font-sm); margin-top: 4px; }
 
 .cell-text { display: block; max-width: 132px; white-space: normal; line-height: 1.4; }
 
@@ -74,7 +74,7 @@ tr:hover td { background: #fbfcfe; }
 
 .dropdown-dismiss { position: fixed; inset: 0; z-index: 8; opacity: 0; border: 0; background: transparent; }
 
-.pagination { min-height: 48px; display: flex; align-items: center; justify-content: space-between; padding: 8px 15px; border-top: 1px solid #edf0f4; color: #8995a5; font-size: calc(var(--font-scale) * 11px); }
+.pagination { min-height: 48px; display: flex; align-items: center; justify-content: space-between; padding: 8px 15px; border-top: 1px solid #edf0f4; color: #68788d; font-size: var(--font-sm); }
 
 .pagination strong { color: #52647a; }
 
@@ -100,7 +100,7 @@ tr:hover td { background: #fbfcfe; }
 
 .dialog-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 14px; border-bottom: 1px solid #edf0f4; margin-bottom: 14px; }
 
-.dialog-header h2 { margin: 0; font: 700 calc(var(--font-scale) * 17px) Manrope; color: #1c3451; }
+.dialog-header h2 { margin: 0; font-size: 1.25rem; font-weight: var(--weight-bold); line-height: 1.3; color: #1c3451; }
 
 .modal-close { width: 27px; height: 27px; border: 0; border-radius: 5px; background: #f2f5f8; color: #718094; font-size: calc(var(--font-scale) * 18px); line-height: 1; }
 
@@ -110,17 +110,17 @@ tr:hover td { background: #fbfcfe; }
 
 .form-field.wide, .form-hint.wide { grid-column: 1 / -1; }
 
-.form-field > span { color: #596a7e; font-size: calc(var(--font-scale) * 11px); font-weight: 600; }
+.form-field > span { color: #43566c; font-size: var(--font-label); font-weight: var(--weight-semibold); }
 
 .form-field > span i { color: #cf5851; font-style: normal; }
 
-.form-field input, .form-field select, .form-field textarea { width: 100%; min-height: 34px; border: 1px solid #dfe6ed; border-radius: 5px; color: #43576e; background: white; padding: 7px 9px; font-size: calc(var(--font-scale) * 12px); }
+.form-field input, .form-field select, .form-field textarea { width: 100%; min-height: 40px; border: 1px solid #dfe6ed; border-radius: 5px; color: #344a62; background: white; padding: 8px 10px; font-size: var(--font-body); }
 
 .form-field textarea { resize: vertical; min-height: 65px; }
 
 .form-field input[type=file] { padding: 6px; }
 
-.form-field > small { font-size: calc(var(--font-scale) * 10px); line-height: 1.4; }
+.form-field > small { font-size: var(--font-sm); line-height: 1.45; }
 
 .field-error { color: #c34f4a !important; font-size: calc(var(--font-scale) * 10px); }
 
@@ -156,7 +156,7 @@ tr:hover td { background: #fbfcfe; }
 
 .confirm-icon { display: grid; place-items: center; width: 42px; height: 42px; margin: 2px auto 12px; border-radius: 50%; background: #fff0ed; color: #cb5149; font-weight: 700; font-size: calc(var(--font-scale) * 19px); }
 
-.confirm-dialog h2 { color: #233950; font: 700 calc(var(--font-scale) * 17px) Manrope; margin: 0; }
+.confirm-dialog h2 { color: #233950; font-size: 1.25rem; font-weight: var(--weight-bold); margin: 0; }
 
 .confirm-dialog > p { color: #7d8998; font-size: calc(var(--font-scale) * 11px); line-height: 1.6; }
 

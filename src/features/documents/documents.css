@@ -4,6 +4,6 @@
 
 .doc-stat small, .report-card small { display: block; color: #8390a1; font-size: calc(var(--font-scale) * 9px); }
 
-.doc-stat strong, .report-card strong { display: block; color: #1b3451; font: 700 calc(var(--font-scale) * 21px) Manrope; margin-top: 6px; }
+.doc-stat strong, .report-card strong { display: block; color: #1b3451; font-size: 1.5rem; font-weight: 700; line-height: 1.25; margin-top: 6px; }
 
 .doc-file { width: 29px; height: 29px; display: grid; place-items: center; border-radius: 6px; background: #eff4fb; color: #5277ac; }

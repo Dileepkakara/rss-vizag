@@ -16,11 +16,11 @@
 
 .stat-icon.red { color: #cf655b; background: #fff0ed; }
 
-.stat-label { position: absolute; left: 52px; top: 20px; color: #6f7d91; font-size: calc(var(--font-scale) * 10px); }
+.stat-label { position: absolute; left: 52px; top: 20px; color: #596b81; font-size: .875rem; font-weight: 500; }
 
 .stat-label span { color: #a1adbb; margin-left: 5px; font-size: calc(var(--font-scale) * 10px); }
 
-.stat-value { display: block; margin-top: 8px; color: #172c46; font: 700 calc(var(--font-scale) * 23px) Manrope, sans-serif; letter-spacing: -.04em; }
+.stat-value { display: block; margin-top: 8px; color: #172c46; font-size: 1.625rem; font-weight: 700; letter-spacing: -.025em; line-height: 1.2; }
 
 .stat-card > small { color: #929eac; font-size: calc(var(--font-scale) * 9px); display: block; margin-top: 5px; }
 
@@ -30,7 +30,7 @@
 
 .chart-summary { display: flex; align-items: baseline; gap: 8px; margin-top: 15px; }
 
-.chart-summary strong { color: #1b3454; font: 700 calc(var(--font-scale) * 20px) Manrope; }
+.chart-summary strong { color: #1b3454; font-size: 1.375rem; font-weight: 700; }
 
 .chart-summary span { color: #8794a4; font-size: calc(var(--font-scale) * 9px); }
 
@@ -70,7 +70,7 @@
 
 .donut strong, .donut small { display: block; }
 
-.donut strong { color: #1b3454; font: 700 calc(var(--font-scale) * 20px) Manrope; }
+.donut strong { color: #1b3454; font-size: 1.375rem; font-weight: 700; }
 
 .donut small { color: #8995a5; font-size: calc(var(--font-scale) * 8px); margin-top: 2px; }
 
