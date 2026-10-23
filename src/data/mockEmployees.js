@@ -1,0 +1,7 @@
+export const mockEmployees = [
+  { id: 'RSS-D-001', name: 'Arjun Kumar', mobile: '9XX-XXX-1042', designation: 'Security Guard', department: 'Operations', joiningDate: '2022-03-14', createdDate: '2026-05-12', status: 'Active', pfStatus: 'Existing Membership', esiStatus: 'Active', branch: 'Vizag North', notes: '' },
+  { id: 'RSS-D-002', name: 'Meera Devi', mobile: '9XX-XXX-2371', designation: 'Supervisor', department: 'Operations', joiningDate: '2021-08-02', createdDate: '2026-06-09', status: 'Active', pfStatus: 'Pending Verification', esiStatus: 'Pending Verification', branch: 'Madhurawada', notes: 'Previous employment details to confirm.' },
+  { id: 'RSS-D-003', name: 'Ravi Teja', mobile: '9XX-XXX-8055', designation: 'Security Guard', department: 'Operations', joiningDate: '2019-01-21', createdDate: '2026-07-14', status: 'Former', pfStatus: 'Existing Membership', esiStatus: 'Not Applicable (Confirmed)', branch: 'Gajuwaka', notes: '' },
+  { id: 'RSS-D-004', name: 'Sana Fatima', mobile: '9XX-XXX-6620', designation: 'Office Staff', department: 'Administration', joiningDate: '2023-06-05', createdDate: '2026-09-03', status: 'Active', pfStatus: 'New Membership Required', esiStatus: 'Active', branch: 'Head Office', notes: '' },
+  { id: 'RSS-D-005', name: 'Kiran Rao', mobile: '9XX-XXX-4318', designation: 'Field Officer', department: 'Operations', joiningDate: '2017-11-19', createdDate: '2026-10-16', status: 'Retired', pfStatus: 'Existing Membership', esiStatus: 'Pending Verification', branch: 'Vizag South', notes: 'Historical records retained.' },
+];

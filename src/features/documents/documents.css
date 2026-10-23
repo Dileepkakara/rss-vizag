@@ -1,0 +1,9 @@
+.document-summary, .reports-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 2px 0 15px; }
+
+.doc-stat, .report-card { padding: 13px 16px; }
+
+.doc-stat small, .report-card small { display: block; color: #8390a1; font-size: calc(var(--font-scale) * 9px); }
+
+.doc-stat strong, .report-card strong { display: block; color: #1b3451; font: 700 calc(var(--font-scale) * 21px) Manrope; margin-top: 6px; }
+
+.doc-file { width: 29px; height: 29px; display: grid; place-items: center; border-radius: 6px; background: #eff4fb; color: #5277ac; }

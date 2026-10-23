@@ -1,0 +1,21 @@
+.activity-table { padding: 4px 20px; }
+
+.history-row { display: flex; align-items: flex-start; gap: 12px; padding: 15px 0; border-bottom: 1px solid #eff2f5; position: relative; }
+
+.history-row:last-child { border-bottom: 0; }
+
+.timeline-mark { width: 8px; position: absolute; top: 21px; bottom: -15px; left: -12px; border-left: 1px solid #dce5ef; }
+
+.history-row:last-child .timeline-mark { display: none; }
+
+.timeline-mark span { position: absolute; left: -4px; top: 0; width: 7px; height: 7px; border: 2px solid #6390ce; background: white; border-radius: 50%; }
+
+.history-description { flex: 1; }
+
+.history-description strong { color: #30465f; font-size: calc(var(--font-scale) * 10px); }
+
+.history-description p { margin: 4px 0; color: #7e8b9b; font-size: calc(var(--font-scale) * 9px); }
+
+.history-description small { color: #99a4b1; font-size: calc(var(--font-scale) * 8px); }
+
+.history-row time { color: #8d99a8; font-size: calc(var(--font-scale) * 8px); white-space: nowrap; }

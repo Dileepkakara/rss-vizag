@@ -1,0 +1,9 @@
+.report-table .panel-title { align-items: center; padding: 15px; }
+
+.report-date { display: flex; align-items: center; gap: 5px; color: #8a96a5; font-size: calc(var(--font-scale) * 10px); white-space: nowrap; }
+
+.toolbar-controls .report-date input { width: 112px; height: 32px; border: 1px solid #e1e7ee; border-radius: 5px; color: #647388; font-size: calc(var(--font-scale) * 11px); padding: 0 5px; }
+
+.report-table table th:first-child, .report-table table td:first-child { padding-left: 15px; }
+
+.block { display: block; }

@@ -1,0 +1,10 @@
+@import './styles/global.css';
+@import './components/layout/layout.css';
+@import './features/dashboard/dashboard.css';
+@import './components/common/common.css';
+@import './features/documents/documents.css';
+@import './features/reports/reports.css';
+@import './features/activity/activity.css';
+@import './features/settings/settings.css';
+@import './features/auth/auth.css';
+@import './styles/responsive.css';

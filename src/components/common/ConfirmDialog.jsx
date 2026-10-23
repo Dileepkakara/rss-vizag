@@ -1,0 +1,3 @@
+export default function ConfirmDialog({ title, description, confirmLabel, onConfirm, onCancel }) {
+  return <div className="modal-backdrop" onMouseDown={(event) => event.target === event.currentTarget && onCancel()}><section className="dialog confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="confirm-title"><button className="modal-close" onClick={onCancel} aria-label="Close dialog">×</button><div className="confirm-icon">!</div><h2 id="confirm-title">{title}</h2><p>{description}</p><div className="modal-actions"><button className="btn secondary" onClick={onCancel}>Cancel</button><button className="btn danger" onClick={onConfirm}>{confirmLabel}</button></div></section></div>;
+}

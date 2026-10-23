@@ -1,0 +1,71 @@
+.sidebar { width: 248px; background: #102b4e; color: #e9f1fc; display: flex; flex-direction: column; position: fixed; inset: 0 auto 0 0; z-index: 30; padding: 25px 14px 17px; }
+
+.brand { display: flex; align-items: center; gap: 11px; padding: 0 9px 31px; }
+
+.brand-mark { width: 37px; height: 37px; display: grid; place-items: center; color: #fff; border-radius: 11px; font: 800 calc(var(--font-scale) * 21px) Manrope, sans-serif; background: linear-gradient(145deg, #18a999, #127c92); }
+
+.brand strong, .brand small { display: block; letter-spacing: .075em; }
+
+.brand strong { font: 800 calc(var(--font-scale) * 13px) Manrope, sans-serif; color: #fff; }
+
+.brand small { margin-top: 3px; color: #9db0c9; font-size: calc(var(--font-scale) * 8px); letter-spacing: .15em; }
+
+.workspace-label { color: #8197b1; font-size: calc(var(--font-scale) * 9px); font-weight: 700; letter-spacing: .14em; padding: 2px 12px 12px; }
+
+.sidebar nav { display: grid; gap: 3px; }
+
+.nav-link { height: 42px; background: transparent; border: 0; border-radius: 7px; color: #c4d2e3; display: flex; align-items: center; text-align: left; gap: 12px; padding: 0 12px; font-size: calc(var(--font-scale) * 12px); position: relative; transition: background .15s, color .15s; }
+
+.nav-link:hover { background: #193b63; color: white; }
+
+.nav-link.active { background: #1d416a; color: white; font-weight: 600; box-shadow: inset 3px 0 #42c6b4; }
+
+.nav-icon { font-size: calc(var(--font-scale) * 17px); width: 18px; text-align: center; opacity: .9; }
+
+.nav-dot { width: 5px; height: 5px; background: #47ceb9; border-radius: 50%; margin-left: auto; }
+
+.sidebar-footer { margin-top: auto; padding: 13px 10px; display: flex; align-items: center; gap: 9px; border-top: 1px solid #274262; }
+
+.secure-symbol { width: 26px; height: 26px; display: grid; place-items: center; color: #53d1bb; background: #1e4b60; border-radius: 7px; font-size: calc(var(--font-scale) * 13px); }
+
+.sidebar-footer strong, .sidebar-footer small { display: block; }
+
+.sidebar-footer strong { font-size: calc(var(--font-scale) * 10px); font-weight: 600; }
+
+.sidebar-footer small { color: #93a7bf; font-size: calc(var(--font-scale) * 9px); margin-top: 4px; }
+
+.main-area { min-height: 100vh; margin-left: 248px; }
+
+.topbar { height: 66px; background: white; border-bottom: 1px solid #edf0f4; display: flex; align-items: center; justify-content: space-between; padding: 0 34px; position: sticky; top: 0; z-index: 15; }
+
+.crumb { color: #263b53; font-size: calc(var(--font-scale) * 12px); font-weight: 600; }
+
+.crumb span { color: #98a4b4; font-weight: 400; }
+
+.crumb b { color: #c5ced8; margin: 0 10px; font-weight: 400; }
+
+.topbar-right { display: flex; align-items: center; gap: 11px; }
+
+.demo-chip { border: 1px solid #c9efe7; background: #f0fbf8; color: #167c70; border-radius: 5px; padding: 5px 8px; font-size: calc(var(--font-scale) * 9px); letter-spacing: .05em; font-weight: 700; display: flex; gap: 6px; align-items: center; }
+
+.demo-chip i { width: 6px; height: 6px; background: #14a78f; border-radius: 50%; }
+
+.role-badge { max-width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e2e9f1; background: #f8fafc; color: #566b84; border-radius: 5px; padding: 5px 8px; font-size: calc(var(--font-scale) * 9px); font-weight: 600; }
+
+.bell { position: relative; width: 30px; height: 32px; font-size: calc(var(--font-scale) * 18px); border: 0; background: transparent; color: #67778b; }
+
+.bell span { position: absolute; top: 5px; right: 6px; width: 5px; height: 5px; background: #ee705f; border: 1px solid #fff; border-radius: 50%; }
+
+.profile-avatar, .activity-avatar { flex: 0 0 auto; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; background: #e3ebfb; color: #365eae; font-size: calc(var(--font-scale) * 10px); font-weight: 700; }
+
+.profile-copy strong, .profile-copy small { display: block; }
+
+.profile-copy strong { font-size: calc(var(--font-scale) * 10px); }
+
+.profile-copy small { margin-top: 3px; color: #8a97a8; font-size: calc(var(--font-scale) * 9px); }
+
+.chevron { background: none; border: 0; color: #7b8796; font-size: calc(var(--font-scale) * 17px); padding: 3px; }
+
+.content { max-width: 1600px; padding: 30px 34px 40px; margin: 0 auto; }
+
+.mobile-close, .menu-toggle, .nav-scrim { display: none; }
