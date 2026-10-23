@@ -36,15 +36,15 @@ export const moduleConfig = {
 export const navigationItems = [
   ['Dashboard', '⌂'], ['Employee Master', '♙'], ['EPF / PF Management', '◉'], ['ESI Management', '＋'],
   ['GST Records', '▤'], ['Income Tax / ITR Records', '▧'], ['GeM Records', '◇'], ['Documents', '▱'],
-  ['Reports', '▥'], ['Activity History', '◷'], ['Settings', '⚙'],
+  ['Quotation & Invoice', '▧'], ['Reports', '▥'], ['Activity History', '◷'], ['Settings', '⚙'],
 ];
 
 export const demoRoles = ['Super Admin', 'Director / Management', 'HR / Compliance Officer', 'Accounts Officer', 'Viewer / Auditor'];
 
 export const rolePermissions = {
   'Super Admin': new Set(navigationItems.map(([name]) => name)),
-  'Director / Management': new Set(['Dashboard', 'EPF / PF Management', 'ESI Management', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Reports', 'Activity History']),
+  'Director / Management': new Set(['Dashboard', 'EPF / PF Management', 'ESI Management', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Quotation & Invoice', 'Reports', 'Activity History']),
   'HR / Compliance Officer': new Set(['Dashboard', 'Employee Master', 'EPF / PF Management', 'ESI Management', 'Documents', 'Reports', 'Activity History']),
-  'Accounts Officer': new Set(['Dashboard', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Reports', 'Activity History']),
-  'Viewer / Auditor': new Set(['Dashboard', 'Employee Master', 'EPF / PF Management', 'ESI Management', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Reports', 'Activity History']),
+  'Accounts Officer': new Set(['Dashboard', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Quotation & Invoice', 'Reports', 'Activity History']),
+  'Viewer / Auditor': new Set(['Dashboard', 'Employee Master', 'EPF / PF Management', 'ESI Management', 'GST Records', 'Income Tax / ITR Records', 'GeM Records', 'Documents', 'Quotation & Invoice', 'Reports', 'Activity History']),
 };

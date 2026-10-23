@@ -15,6 +15,7 @@ import ReportsPage from '../features/reports/ReportsPage.jsx';
 import ActivityPage from '../features/activity/ActivityPage.jsx';
 import SettingsPage from '../features/settings/SettingsPage.jsx';
 import LoginPage from '../features/auth/LoginPage.jsx';
+import QuotationInvoicePage from '../features/billing/QuotationInvoicePage.jsx';
 import ProtectedRoute from './ProtectedRoute.jsx';
 import { moduleConfig, rolePermissions } from '../data/moduleConfig.js';
 import { loadDemoData, resetDemoData, saveDemoData, ROLE_STORAGE_KEY } from '../services/storageService.js';
@@ -122,6 +123,7 @@ export default function App() {
     {page === 'Dashboard' && <DashboardPage data={data} activeEmployees={activeEmployees} pendingCount={pendingCount} missingDocs={missingDocs} deadlines={deadlines} onNavigate={navigate} onCreate={() => { navigate('Employee Master'); setSelected(null); setModal({ type: 'form' }); }} />}
     {RecordPage && <RecordPage data={data} employeesById={employeesById} visibleRecords={visibleRecords} pagedRecords={pagedRecords} query={query} filter={filter} setQuery={setQuery} setFilter={setFilter} sortBy={sortBy} setSortBy={setSortBy} pageNum={pageNum} setPageNum={setPageNum} pageCount={pageCount} onCreate={openCreate} onView={openView} onEdit={openEdit} onArchive={archiveRecord} onDelete={(record) => { setSelected(record); setModal({ type: 'delete' }); }} canWrite={canWrite} />}
     {page === 'Documents' && <DocumentsPage data={data} query={query} setQuery={setQuery} onCreate={openCreate} onView={openView} onEdit={openEdit} onArchive={archiveRecord} onDelete={(doc) => { setSelected(doc); setModal({ type: 'delete' }); }} canWrite={canWrite} />}
+    {page === 'Quotation & Invoice' && <QuotationInvoicePage canWrite={canWrite} />}
     {page === 'Reports' && <ReportsPage data={data} />}
     {page === 'Activity History' && <ActivityPage data={data} />}
     {page === 'Settings' && <SettingsPage role={role} setRole={(next) => { setRole(next); localStorage.setItem(ROLE_STORAGE_KEY, next); navigate('Dashboard'); }} onReset={() => setModal({ type: 'reset' })} />}

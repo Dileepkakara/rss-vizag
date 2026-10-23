@@ -1,8 +1,8 @@
-.sidebar { width: 248px; background: #102b4e; color: #e9f1fc; display: flex; flex-direction: column; position: fixed; inset: 0 auto 0 0; z-index: 30; padding: 25px 14px 17px; }
+.sidebar { width: 248px; background: #102b4e; color: #e9f1fc; display: flex; flex-direction: column; position: fixed; inset: 0 auto 0 0; z-index: 30; padding: 25px 14px 17px; overflow-y: auto; }
 
 .brand { display: flex; align-items: center; gap: 11px; padding: 0 9px 31px; }
 
-.brand-mark { width: 37px; height: 37px; display: grid; place-items: center; color: #fff; border-radius: 11px; font: 800 calc(var(--font-scale) * 21px) Manrope, sans-serif; background: linear-gradient(145deg, #18a999, #127c92); }
+.brand-logo { width: 70px; height: 38px; flex: 0 0 auto; object-fit: contain; }
 
 .brand strong, .brand small { display: block; letter-spacing: .075em; }
 
